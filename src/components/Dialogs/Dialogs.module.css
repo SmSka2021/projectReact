@@ -1,0 +1,9 @@
+.dialogs {
+    display: flex;
+}
+
+.dialogs_item {    
+    font-size: 18px;
+    margin-right: 30px;
+    font-weight: 700;
+}

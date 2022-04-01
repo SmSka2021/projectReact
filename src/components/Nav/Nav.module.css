@@ -1,0 +1,18 @@
+.nav {
+  grid-area: n;
+  background-color: yellow;
+  padding: 25px 25px;
+  border: 3px dashed rgb(235, 238, 67);
+  display: block;
+}
+.item {
+  color:darkblue;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+}
+.active {
+  color:rgb(170, 26, 69);
+  font-weight: 700;
+  font-size: 20px;
+}

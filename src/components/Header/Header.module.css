@@ -1,0 +1,7 @@
+.header {
+    grid-area: h;
+    background-color:cyan;
+    padding-top: 10px;
+    padding-left: 25px;
+    border: 3px dashed rgb(34, 37, 236);    
+    }

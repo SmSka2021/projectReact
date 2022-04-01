@@ -1,0 +1,8 @@
+.btn {
+  width: 80px;
+  color: blue;
+  margin-left: 25px;
+}
+.btn_like {
+  display: flex; 
+}

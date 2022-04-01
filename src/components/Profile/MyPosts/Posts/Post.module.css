@@ -1,0 +1,12 @@
+.item {
+  color: rgb(13, 70, 43);
+  display: flex;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.img {
+  width: 50px;
+  margin-right: 25px;
+  border-radius: 50%;
+}
