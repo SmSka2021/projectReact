@@ -13,6 +13,7 @@ export const Nav = () => {
       <li><NavLink className={(data) => data.isActive ? n.active : n.item} to='/news'>News</NavLink></li>
       <li><NavLink className={(data) => data.isActive ? n.active : n.item} to='/Setting'>Setting</NavLink></li>
       <li><NavLink className={(data) => data.isActive ? n.active : n.item} to='/first'>First</NavLink></li>      
+      <li><NavLink className={(data) => data.isActive ? n.active : n.item} to='/second'>Second</NavLink></li>      
       </ul>
     </nav>
   )

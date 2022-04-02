@@ -1,14 +1,15 @@
 import { connect } from 'react-redux';
-import { removeFirstActionCreator, updateFirstActionCreator, updateFirstInputActionCreator } from '../../redux/first_reducer';
-import { First } from './First';
-import { addFirstctionCreator } from './../../redux/first_reducer';
+import { removeFirstActionCreator, updateFirstActionCreator, updateFirstInputActionCreator } from '../../redux/second_reducer';
+
+import { addFirstctionCreator } from '../../redux/second_reducer';
+import { Second } from './Second';
 
 
 
 let mapStateToProps=(state)=>{
 
     return {
-    state: state.firstPages,
+    state: state.secondPages,
   
  }}
 let mapDispatchToProps = (dispatch)=>{
@@ -31,7 +32,7 @@ let mapDispatchToProps = (dispatch)=>{
 }
 
  
- export const FirstContainerReact = connect(mapStateToProps, mapDispatchToProps)(First)
+ export const SecondContainerReact = connect(mapStateToProps, mapDispatchToProps)(Second)
 
 
  

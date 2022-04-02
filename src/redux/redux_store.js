@@ -5,6 +5,7 @@ import { newsReducer } from './news_reducer';
 import { musicReducer } from './music_reducer';
 import { settingReducer } from './setting_reducer';
 import { firstReducer } from './first_reducer';
+import { secondReducer } from "./second_reducer";
 
 let redusers = combineReducers({
   profilePage: profileReducer,
@@ -13,6 +14,7 @@ let redusers = combineReducers({
   musicPages: musicReducer,
  settingPages: settingReducer,
  firstPages: firstReducer,
+ secondPages: secondReducer,
 });
 
  let store = createStore(redusers);

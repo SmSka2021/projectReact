@@ -1,12 +1,14 @@
 import React from 'react';
-import n from './First.module.css'
-import FirstBase from './firstBase/FirstBase';
+import n from './../First/First.module.css'
+import FirstBase from '../First/firstBase/FirstBase';
 import Button from './../UII/Button/Button';
 import Input from './../UII/Input/Input';
 
 
 
-export const First = (props) => {
+
+
+export const Second= (props) => {
 
     let addFirstRecepie = (e) => {
         e.preventDefault()
@@ -31,12 +33,12 @@ let removeRecepie=(idd)=>{
 
     let newMessageBody1 = props.state.newMessageBody1
     let newMessageBody2 = props.state.newMessageBody2
-    let first = "first"
+    let first = "second"
 
       let arrFirst = props.state.first
     return (
         <div className={n.mus}>
-            <h2>Первые блюда</h2>
+            <h2>Вторые блюда</h2>
             <div className={n.forma}>
                 <form>
                     <Input value={newMessageBody1} type="text" placeholder='Название блюда'
