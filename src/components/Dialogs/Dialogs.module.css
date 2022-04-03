@@ -7,3 +7,12 @@
     margin-right: 30px;
     font-weight: 700;
 }
+.btn{
+    width: 80px;
+    color: blue;
+    margin-left: 25px;
+    height: 30px;
+}
+.textarea{
+    width: 200px;
+}

@@ -1,8 +1,25 @@
-.btn {
-  width: 80px;
-  color: blue;
-  margin-left: 25px;
+.btn{
+  background-color:rgb(160, 248, 148);
+  width: 90px;   
+  height: 30px;
+  border-radius: 7px;
+  color:rgb(8, 43, 29);
+  font-weight: bold;
+  transition: .1s all;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color:rgb(196, 245, 63);   
 }
 .btn_like {
   display: flex; 
+  margin-top: 7px;
+  justify-content: end;
+}
+.btn_like p{ 
+  margin-right: 20px;
+  color:rgb(15, 15, 61);
+  font-size: 18px;
+  font-weight: 700;
+
 }

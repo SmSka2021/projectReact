@@ -2,7 +2,7 @@ import { combineReducers, createStore } from "redux";
 import { profileReducer } from './profile_reducer';
 import { dialogsReducer } from './dialog_reducer';
 import { newsReducer } from './news_reducer';
-import { musicReducer } from './music_reducer';
+import { dessertReducer } from './dessert_reducer';
 import { settingReducer } from './setting_reducer';
 import { firstReducer } from './first_reducer';
 import { secondReducer } from "./second_reducer";
@@ -11,7 +11,7 @@ let redusers = combineReducers({
   profilePage: profileReducer,
   messagePages: dialogsReducer,
   newsPages: newsReducer,
-  musicPages: musicReducer,
+  dessertPages: dessertReducer,
  settingPages: settingReducer,
  firstPages: firstReducer,
  secondPages: secondReducer,

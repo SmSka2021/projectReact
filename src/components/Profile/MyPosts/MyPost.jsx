@@ -18,10 +18,9 @@ export const MyPost = (props)=> {
     let postArr = props.posts.map((elem, i)=> (<Post key = {i} idd = {elem.idd} message = {elem.message}/>))
     
 return (
-    <div className={clas.area}>
-        <h1>My Post</h1>        
-        <textarea ref = {inputRef} onChange = {oNupdateChange} placeholder="message"></textarea>
-        <div><button onClick = {oNaddpostUser} className={clas.btn}>Add post</button></div>
+    <div className={clas.area}>             
+        <textarea ref = {inputRef} onChange = {oNupdateChange} placeholder="Добавьте заметку"></textarea>
+        <div><button onClick = {oNaddpostUser} className={clas.btn}>Добавить</button></div>
         {postArr}      
         </div>
 )}

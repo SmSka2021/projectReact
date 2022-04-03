@@ -3,9 +3,7 @@
     display: block;
     
   }
-  h1 {
-    margin-bottom: 10px;
-  }
+
   .btn{
     background-color:rgb(160, 248, 148);
     width: 90px;   
@@ -14,6 +12,9 @@
     color:rgb(8, 43, 29);
     font-weight: bold;
     transition: .1s all;
+   margin-bottom: 20px;
+   margin-left: 90%;
+  
   }
   .btn:hover{
     background-color:rgb(196, 245, 63);   

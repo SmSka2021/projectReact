@@ -1,7 +1,23 @@
 
 .de {
-  margin-bottom: 25px;
+  padding-left: 0;
+  margin-bottom: 5px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-image: url('./../../../../assept/fon.jpg') ;
+  text-align: center;
+  color: rgb(10, 10, 53);
+  padding-top: 30px;
 }
-.de img{
- background-size: cover;
+.de h2{
+font-weight: 800;
+line-height: 2px;
+text-transform: uppercase;
+color: rgb(10, 10, 53);
+background-color: gold;
+line-height: 45px;
+font-size: 30px;
+margin-right: 3%;
 }

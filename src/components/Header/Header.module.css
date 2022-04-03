@@ -1,7 +1,16 @@
 .header {
     grid-area: h;
-    background-color:cyan;
-    padding-top: 10px;
-    padding-left: 25px;
-    border: 3px dashed rgb(34, 37, 236);    
+    background-color:rgb(16, 25, 146);
+    padding: 0 20px;   
+    border: 3px dashed gold;
+    color: gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    }
+    .h1{
+        color: gold;
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 35px;     
     }

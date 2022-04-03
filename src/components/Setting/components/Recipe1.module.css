@@ -1,0 +1,58 @@
+
+.blockTxT{
+    margin-left: 30px;   
+}
+.publisher{
+text-align: justify;
+margin-top: 20px;
+margin-bottom: 20px;
+text-indent: 30px;
+}
+.img {
+    height: 350px !important;
+    width: 350px;
+    margin: 20px;
+    object-fit: contain;
+  }
+  
+  .title {
+    text-transform: uppercase;
+    letter-spacing: 1px;   
+    color:rgb(7, 7, 63);
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .publisher, .website { 
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500; 
+    margin-right: 10px;
+  }
+  
+  .publisher span {
+    text-transform: none;
+    font-weight: 600; 
+    margin-left: 5px;
+  }
+  
+  .website span { 
+    font-weight: 400; 
+    color: #e74c3c;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;  
+    font-weight: 600; 
+  }
+  
+  
+  .button {
+    border: solid 2px #e74c3c;
+    background: transparent;
+    padding: 0.2rem 0.9rem;
+    margin: 0 0.2rem;
+    border-radius: 1px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+  }

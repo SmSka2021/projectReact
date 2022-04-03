@@ -32,8 +32,8 @@ export const Dialogs = (props) => {
             <div className={s.message}>
                 <div>{messageArr}</div>
                 <div>
-                    <div><textarea ref = {textareaRef} onChange={onNewdMessageChange} value={newMessageBody} placeholder='Enter your message'></textarea></div>
-                    <div><button onClick={onSendMessageClick}>Send</button> </div>
+                    <div><textarea className={s.textarea} ref = {textareaRef} onChange={onNewdMessageChange} value={newMessageBody} placeholder='Название блюда'></textarea></div>
+                    <div><button className={s.btn} onClick={onSendMessageClick}>Send</button> </div>
                 </div>
             </div>
         </div>

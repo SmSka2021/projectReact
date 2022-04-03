@@ -3,11 +3,11 @@ import uniqid from "uniqid";
 let initialState = {
  
   messages: [
-    { idd: uniqid(), message: "Hello" },
-    { idd: uniqid(), message: "How are your?" },
-    { idd: uniqid(), message: "I am OK. And you?" },
-    { idd: uniqid(), message: "Good" },
-    { idd: uniqid(), message: "By" },
+    { idd: uniqid(), message: "Борщ московский" },
+    { idd: uniqid(), message: "Котлеты по-киевски" },
+    { idd: uniqid(), message: "Картофель отварной" },
+    { idd: uniqid(), message: "Мусс вишневый" },
+    { idd: uniqid(), message: "Салат Цезарь" },
   ],
  newMessageBody: '',
 }
