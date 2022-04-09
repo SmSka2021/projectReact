@@ -31,11 +31,11 @@ let removeRecepie=(idd)=>{
         props.onNewdMessageChange(messNewText)
     }
 
-    let newMessageBody1 = props.state.newMessageBody1
-    let newMessageBody2 = props.state.newMessageBody2
+    let newMessageBody1 = props.state.newMessageBodySecond1
+    let newMessageBody2 = props.state.newMessageBodySecond2
     let first = "second"
 
-      let arrFirst = props.state.first
+      let arrFirst = props.state.second
     return (
         <div className={n.mus}>
             <h2>Вторые блюда</h2>

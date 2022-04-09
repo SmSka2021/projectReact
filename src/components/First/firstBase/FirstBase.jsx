@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './FirstBase.module.css';
-import { Rate } from 'antd';
+
 
 
 

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import { removeFirstActionCreator, updateFirstActionCreator, updateFirstInputActionCreator } from '../../redux/dessert_reducer';
-import { addFirstctionCreator } from '../../redux/dessert_reducer';
+import { removeDessertActionCreator, updateDessertActionCreator, updateDessertInputActionCreator } from '../../redux/dessert_reducer';
+import { addDessertActionCreator } from '../../redux/dessert_reducer';
 import { Dessert } from './Dessert';
 
 
@@ -12,17 +12,17 @@ let mapStateToProps=(state)=>{
 let mapDispatchToProps = (dispatch)=>{     
   return {
    onNewInputChange: (title)=> {      
-  dispatch(updateFirstInputActionCreator(title))
+  dispatch(updateDessertInputActionCreator(title))
   },
   onNewdMessageChange: (text)=> {      
-   dispatch(updateFirstActionCreator(text))
+   dispatch(updateDessertActionCreator(text))
    },
 
  onSendMessageCreator:()=>{      
-     dispatch(addFirstctionCreator())     
+     dispatch(addDessertActionCreator())     
  },
   removeRecepie:(idd)=>{ 
-    dispatch(removeFirstActionCreator(idd))
+    dispatch(removeDessertActionCreator(idd))
   }
  } 
 }

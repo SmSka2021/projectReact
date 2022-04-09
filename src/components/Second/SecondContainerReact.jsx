@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
-import { removeFirstActionCreator, updateFirstActionCreator, updateFirstInputActionCreator } from '../../redux/second_reducer';
+import { removeSecondActionCreator, updateSecondActionCreator, updateSecondInputActionCreator } from '../../redux/second_reducer';
 
-import { addFirstctionCreator } from '../../redux/second_reducer';
+import { addSecondActionCreator } from '../../redux/second_reducer';
 import { Second } from './Second';
 
 
@@ -16,17 +16,17 @@ let mapDispatchToProps = (dispatch)=>{
      
   return {
    onNewInputChange: (title)=> {      
-  dispatch(updateFirstInputActionCreator(title))
+  dispatch(updateSecondInputActionCreator(title))
   },
   onNewdMessageChange: (text)=> {      
-   dispatch(updateFirstActionCreator(text))
+   dispatch(updateSecondActionCreator(text))
    },
 
  onSendMessageCreator:()=>{      
-     dispatch(addFirstctionCreator())     
+     dispatch(addSecondActionCreator())     
  },
   removeRecepie:(idd)=>{ 
-    dispatch(removeFirstActionCreator(idd))
+    dispatch(removeSecondActionCreator(idd))
   }
  } 
 }
