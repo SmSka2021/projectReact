@@ -25,3 +25,15 @@
 .item h6::first-line{
   font-weight: 800;
 }
+.buttonLine{
+display: flex;
+justify-content: space-between;
+}
+.btn{
+  margin-left:80%;
+  margin-top: 10px;  
+  width: 100px;
+  height: 40px;
+  color: darkblue;
+  font-weight: 500;
+}

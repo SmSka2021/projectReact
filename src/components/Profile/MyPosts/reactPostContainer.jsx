@@ -4,7 +4,6 @@ import { addPostActionCreator, updateNewPostTextActionCreator} from '../../../re
 import { connect } from 'react-redux';
 
 
-
 const mapStateToProps=(state)=>{
  
    return {
@@ -19,7 +18,8 @@ const mapDispatchToProps = (dispatch)=>{
    } ,
    addpostUser:()=>{
       dispatch(addPostActionCreator())      
-   }
+   },
+   
   } 
 }
 

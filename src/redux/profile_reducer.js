@@ -31,23 +31,23 @@ export const profileReducer = (state = initialState, action) => {
       let mess = { idd: uniqid(), message: state.newPostText };
       return {
         ...state,
-        posts: [...state.posts, mess],
-       newPostText: '',
+        posts: state.posts.filter((idd) => idd != action.idd ),
+       
       };
      
-    case "UPDATE-NEW-POST-CHANGE":
+    case "UPDATE-NEW-POST-CHANGE":     
       return {
         ...state, 
         newPostText: action.newText,
-      };     
-
-    default:
+      };  
+         
+        default:
       return state;
   }
 };
 
 export const addPostActionCreator =() =>({type: 'ADD-POST'});
 export const updateNewPostTextActionCreator= (text)=> (
-  {type: "UPDATE-NEW-POST-CHANGE", newText: text})
+  {type: "UPDATE-NEW-POST-CHANGE", newText: text});  
 
 
