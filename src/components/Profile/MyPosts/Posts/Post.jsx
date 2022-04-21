@@ -1,7 +1,7 @@
 import React from 'react';
 import clas from './Post.module.css'
 import { ButtonLike } from './../ButtonLike/ButtonLike';
-import Button from './../../../UII/Button/Button';
+
 
 
 

@@ -20,6 +20,9 @@
     font-weight: 500;
     margin-left: 0.7rem;
   }
+  .form__button:hover {
+    color: rgb(23, 23, 161);
+  }
   
   input[type="text"] { 
     outline: none;

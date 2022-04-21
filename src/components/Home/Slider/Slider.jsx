@@ -6,9 +6,6 @@ import c from './Slider.module.css'
 import uniqid from "uniqid";
 
 export  const Sliders =(props)=> {
-  
-  debugger
- 
 return (
   <div className={c.container}>
      <Slider dots={true} infinite={true} speed={1000} slidesToScroll={3} arrows={true} slidesToShow={3} className={c.slider}>

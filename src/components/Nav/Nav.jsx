@@ -14,7 +14,7 @@ export const Nav = () => {
       <li><NavLink className={(data) => data.isActive ? n.active : n.item} to='/second'>Вторые блюда</NavLink></li>      
       <li><NavLink className={(data) => data.isActive ? n.active : n.item} to='/dessert'>Дессерт</NavLink></li>
       <li><NavLink className={(data) => data.isActive ? n.active : n.item} to='/recipe'>Поиск</NavLink></li>     
-      <li><NavLink className={(data) => data.isActive ? n.active : n.item} to='/dialogs'>Dialogs</NavLink></li>
+     
            
       </ul>
     </nav>

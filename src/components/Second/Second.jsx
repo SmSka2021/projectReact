@@ -18,24 +18,24 @@ export const Second= (props) => {
         else {
             alert("Для добавления вашего рецепта необходимо заполнить форму")
         }
-    }
+    };
 let removeRecepie=(idd)=>{
     props.removeRecepie(idd)
-}
+};
     let firstNewChangeInput = (e) => {
         let inputNewText = e.target.value;
         props.onNewInputChange(inputNewText)
-    }
+    };
     let firstNewChange = (e) => {
         let messNewText = e.target.value;
         props.onNewdMessageChange(messNewText)
-    }
+    };
 
-    let newMessageBody1 = props.state.newMessageBodySecond1
-    let newMessageBody2 = props.state.newMessageBodySecond2
-    let first = "second"
+    let newMessageBody1 = props.state.newMessageBodySecond1;
+    let newMessageBody2 = props.state.newMessageBodySecond2;
+    let first = "second";
 
-      let arrFirst = props.state.second
+      let arrFirst = props.state.second;
     return (
         <div className={n.mus}>
             <h2>Вторые блюда</h2>

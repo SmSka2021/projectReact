@@ -1,23 +1,22 @@
 import React from 'react';
 import s from './Header.module.css'
 import 'antd/dist/antd.css';
-import { Spin, Space } from 'antd';
 
 export const Header = () => {
     return (
         <header className={s.header}>
-            <Space size="middle">
-                <Spin size="small" />
-                <Spin />
-                <Spin size="large" />
-            </Space>
-            <h1 className={s.h1}>КУЛИНАРНАЯ КНИГА</h1>
-            <Space size="middle">
-                <Spin size="small" />
-                <Spin />
-                <Spin size="large" />
-            </Space>
+            <div className={s.header_decor} >
+                <h1 className={s.h1}>&#9672; </h1>
+                <img className={s.img1} src={require('../../assept/eda.gif')} alt="logo_img"/>
+                <h1 className={s.h1}>&#9672;</h1>
+            </div>
 
+            <h1 className={s.h1}> КУЛИНАРНАЯ КНИГА  </h1>
+            <div className={s.header_decor} >
+                <h1 className={s.h1}>&#9672;</h1>
+                <h1 className={s.h1}>&#9672;</h1>
+                <h1 className={s.h1}>&#9672;</h1>
+            </div>
         </header>
     )
 }

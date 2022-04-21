@@ -17,7 +17,7 @@ return (
 const Text = styled.h2`
     font-size: 35px;
     letter-spacing: 0.05em;
-    color: rgb(8, 8, 58);
+    color: rgb(15, 13, 127);
     text-align: center;
     font-weight: 700;
 `

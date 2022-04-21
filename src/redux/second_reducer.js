@@ -75,9 +75,9 @@ export const secondReducer = (state = initialState, action) => {
       let newArrFirst = state.second.filter((item) => item.idd !== action.idd);
       return {
         ...state,
-        second: [...state.second, newArrFirst],
+        second: [...newArrFirst],
       };
-
+      
     default:
       return state;
   }

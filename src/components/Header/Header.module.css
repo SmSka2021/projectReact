@@ -4,13 +4,24 @@
     padding: 0 20px;   
     border: 3px dashed gold;
     color: gold;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;    
+    display: flex;    
+    align-items: center;      
+    }
+    .header_decor{
+        display: flex;  
     }
     .h1{
         color: gold;
         font-weight: 700;
         letter-spacing: 2px;
-        font-size: 35px;     
+        font-size: 35px; 
+        margin-left: auto; 
+        margin-right: auto;     
+    }
+  
+    .img1{
+        width: 55px;
+        height: 57px;
+        margin-left: 10px;  
+        margin-right: 10px;      
     }

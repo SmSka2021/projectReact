@@ -1,15 +1,7 @@
 import uniqid from "uniqid";
 
 export let initialState =  {
-  dialogs: [
-    { idd: uniqid(), name: "Понедельник" },
-    { idd: uniqid(), name: "Вторник" },
-    { idd: uniqid(), name: "Среда" },
-    { idd: uniqid(), name: "Четверг" },
-    { idd: uniqid(), name: "Пятница" },
-    { idd: uniqid(), name: "Суббота" },
-    { idd: uniqid(), name: "Воскресенье" },
-  ],
+  
   posts: [
   { idd: uniqid(), message: `1. Как придать золотистый цвет моркови и луку. Для того чтобы лук и морковь подрумянивались быстрее и приобретали потрясающую золотистую корку, их необходимо посыпать щепоткой сахара. Если же поджаривается один лук, то для получения золотистого цвета можно посыпать его небольшим количеством муки.` },
   { idd: uniqid(), message: "2. Как быстро очистить помидоры от кожицы. Этот процесс может занять всего лишь несколько минут и потребовать минимум усилий. Достаточно лишь обдать помидоры кипятком и оставить на несколько минут. Слейте воду и подцепите кожицу — она с легкостью сойдет сама." },
@@ -31,7 +23,7 @@ export const profileReducer = (state = initialState, action) => {
       let mess = { idd: uniqid(), message: state.newPostText };
       return {
         ...state,
-        posts: state.posts.filter((idd) => idd != action.idd ),
+        posts: [...state.posts, mess],
        
       };
      
